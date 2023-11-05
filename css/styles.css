@@ -7,56 +7,6 @@
 
 /*============HERO STYLES=========*/
 
-.first-section {
-  background: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people/peopleofice.jpg);
-  max-width: 1440px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.text-title-one {
-  color: #fff;
-  text-align: center;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  width: 496px;
-  margin-bottom: 48px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 496px;
-}
-
-.button {
-  background: #4d5ae5;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  display: block;
-  padding: 16px 32px;
-  height: 56px;
-  min-width: 169px;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
-}
 
 /*============STRENGHTS STYLES=========*/
 
