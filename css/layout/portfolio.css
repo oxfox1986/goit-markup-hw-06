@@ -1,0 +1,103 @@
+.section-portfolio {
+    padding: 96px 0 96px 0;
+  }
+.foto-portfolio{
+    width: 288px;
+    height: 280px;
+}
+
+.item-portfolio {
+    border: 1px solid #e7e9fc;
+    background: #fff;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+
+ 
+.text-title-portfolio {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  
+  .text-pportfolio {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px
+  }
+
+  .list-portfolio-item:hover .overlay,
+  .list-portfolio-item:focus .overlay {
+    transform: translateY(0);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+  
+  .list-portfolio-item {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+  
+
+.portfolio-foto {
+    position: relative;
+    overflow: hidden;
+  }
+  
+
+.overlay {
+    position: absolute;
+    top: 0;
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
+    padding-right: 32px;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  
+
+@media screen and (min-width: 768px){
+    .foto-portfolio{
+        width: 356px;
+        height: 300px;
+    }
+    
+    .list-portfolio{
+        column-gap: 24px;
+        row-gap: 72px; 
+    }
+}
+
+@media screen and (min-width: 1158px){
+    .section-portfolio {
+        padding: 120px 0 120px 0;
+      }
+    .foto-portfolio{
+        width: 360px;
+        height: 300px;
+    }
+
+    .list-portfolio{
+        column-gap: 24px;
+        row-gap: 48px; 
+    }
+}
