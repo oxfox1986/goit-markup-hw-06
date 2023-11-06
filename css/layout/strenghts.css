@@ -70,6 +70,12 @@
     .list-strenghts-item {
         width: calc((100% - 72px) / 4);
       }
+      
+    .text-title-three-streng{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+    }
 }
 
 
