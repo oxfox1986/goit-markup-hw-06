@@ -32,50 +32,87 @@
     max-width: 220px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 72px;
 }
 
-/*
-.first-section {
+.button {
+  background: #4d5ae5;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+  padding: 16px 32px;
+  height: 56px;
+  min-width: 169px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
+  }
+
+@media screen and (min-width: 768px) {
+  .text-title-one{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 36px;
+    max-width: 496px;
+  }
+  .first-section {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/people/peopletablet.jpg);
+    max-width: 1157px;
+  }
+  @media screen and (min-resolution: 192dpi) and (max-width: 1157px), screen and (min-resoluyion: 2dppx) and (max-width: 1157px), screen and (min-divace-pixel-ratio: 2) and (max-width: 1157px) {
+    .first-section{
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ), url('/images/people/peopletablet@2x.jpg');
+    }
+}
+}
+
+@media screen and (min-width: 1158px){
+  .text-title-one{
+    margin-bottom: 48px;
+  }
+  .first-section {
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people/peopleofice.jpg);
+      url('/images/people/peopleofice.jpg');
     max-width: 1440px;
-    
   }
+  @media screen and (min-resolution: 192dpi) and (min-width: 1158px), screen and (min-resoluyion: 2dppx) and (min-width: 1158px), screen and (min-divace-pixel-ratio: 2) and (min-width: 1158px) {
+    .first-section{
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ), url('/images/people/peopleoffice@2x.jpg');
+    }
+}
+}
+
+
+
   
-  .text-title-one{
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    
-    margin-bottom: 48px;
-    
-    max-width: 496px;
-  }
+ 
   
-  .button {
-    background: #4d5ae5;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    display: block;
-    padding: 16px 32px;
-    height: 56px;
-    min-width: 169px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .button:hover,
-  .button:focus {
-    background-color: #404bbf;
-  }
+ 
