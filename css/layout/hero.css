@@ -6,7 +6,7 @@
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ), url(/images/peoploficemobile.jpg);
+      ), url(../images/peoploficemobile.jpg);
     max-width: 767px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
-          ), url(/images/peoploficemobil@2x.jpg);
+          ), url(../images/peoploficemobil@2x.jpg);
     }
   }
 
@@ -73,7 +73,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/peopletablet.jpg);
+      url(/..images/peopletablet.jpg);
     max-width: 1157px;
   }
   @media screen and (min-resolution: 192dpi) and (max-width: 1157px), screen and (min-resoluyion: 2dppx) and (max-width: 1157px), screen and (min-divace-pixel-ratio: 2) and (max-width: 1157px) {
@@ -81,7 +81,7 @@
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
-          ), url(/images/peopletablet@2x.jpg);
+          ), url(../images/peopletablet@2x.jpg);
     }
 }
 }
@@ -97,7 +97,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/peopleofice.jpg);
+      url(../images/peopleofice.jpg);
     max-width: 1440px;
   }
   @media screen and (min-resolution: 192dpi) and (min-width: 1158px), screen and (min-resoluyion: 2dppx) and (min-width: 1158px), screen and (min-divace-pixel-ratio: 2) and (min-width: 1158px) {
@@ -105,7 +105,7 @@
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
-          ), url(/images/peopleoffice@2x.jpg);
+          ), url(../images/peopleoffice@2x.jpg);
     }
 }
 }
